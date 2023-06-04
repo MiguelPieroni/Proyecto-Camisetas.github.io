@@ -17,7 +17,6 @@
         <a class="logo" href="./index.html">
         <img src="./Logo/Camisetas De Primera (1).png" alt="Logo">
         </a>
-    <!-- <a class="navbar-brand" href="./index.html">CDP</a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,12 +47,12 @@
         </form>
     </div>
     </div>
-    <!-- Button trigger modal -->
+    <!-- Boton de carrito -->
 <button type="button" class="btn btn-primary me-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
     <i class="fa-solid fa-cart-shopping fa-beat-fade"></i>
 </button>
 
-<!-- Modal -->
+<!-- Modal de carrito -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
     <div class="modal-content">
@@ -75,63 +74,62 @@
 </div>
 </nav>
     <!-- BANNER -->
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./Banners/Banner ajax 1.png" class="d-block w-100" alt="...">
+            <img src="./Banners/banner boca 2.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="./Banners/Banner ajax 2.png" class="d-block w-100" alt="...">
+            <img src="./Banners/banner san lorenzo.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="./Banners/Banner ajax 3.png" class="d-block w-100" alt="...">
+            <img src="./Banners/BANNER BELGRANO.png" class="d-block w-100" alt="...">
         </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-        </button>
     </div>
     <!-- MARCAS -->
     <div class="marcas">
-        <img src="./Marcas/Vuelve-el-fu_tbol-argentino.png" alt="Marcas">
+    <img src="./Marcas/marcAS.png" alt="marcas">
     </div>
     <!-- SECCION DE DESTACADOS -->
-    <main id="destacados">
-        <h2>DESTACADOS</h2>
-        <div>
-        <a href="./paginas/catalogo.html">
-        <img src="./Camisetas de primera/Boca Juniors.png" alt="Boca Juniors">
-        <p>Boca Juniors</p>
-        </div>
+    <div class="destacados__titulo">
+        <h2>>>>> DESTACADOS <<<<</h2>
+    </div>
+    <!-- imagenes de destacados -->
+    <main class="destacados">
+        <div class="destacados__imagenes">
+            <a href="./paginas/catalogo.html">
+            <img src="./Camisetas de primera/Boca Juniors.png" alt="">
+            <p>Boca Juniors</p>
+            <p>Precio</p>
+            <p>$34,999</p>
         </a>
-        <div>
-        <a href="./paginas/catalogo.html">
-        <img src="./Camisetas de primera/Independiente.png" alt="Independiente">
-        <p>Independiente</p>
         </div>
+        
+        <div class="destacados__imagenes">
+            <a href="./paginas/catalogo.html">
+            <img src="./Camisetas de primera/Independiente.png" alt="">
+            <p>Independiente</p>
+            <p>Precio</p>
+            <p>$34,999</p>
         </a>
-        <div>
-        <a href="./paginas/catalogo.html">
-        <img src="./Camisetas de primera/Lanús.png" alt="Lanus">
-        <p>Lanus</p>
         </div>
+        <div class="destacados__imagenes">
+            <a href="./paginas/catalogo.html">
+            <img src="./Camisetas de primera/Lanús.png" alt="">
+            <p>Lanús</p>
+            <p>Precio</p>
+            <p>$34,999</p>
         </a>
-        <div>
-        <a href="./paginas/catalogo.html">
-        <img src="./Camisetas de primera/belgrano.png" alt="belgrano">
-        <p>Belgrano</p>
         </div>
+        <div class="destacados__imagenes">
+            <a href="./paginas/catalogo.html">
+            <img src="./Camisetas de primera/River.png" alt="">
+            <p>River</p>
+            <p>Precio</p>
+            <p>$34,999</p>
         </a>
+        </div>
     </main>
 
     <section class="ubicacion">
@@ -139,13 +137,12 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13026994.692346308!2d-106.25608075463002!3d37.14274429061332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sEstados%20Unidos!5e0!3m2!1ses!2sar!4v1685044419934!5m2!1ses!2sar" width="1903" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <div class="haciendoteSocio">
+    <div class="haciendotesocio">
         <h2>
-            Haciendote socio
+        NO PIERDAS ESTA OPORTUNIDAD
         </h2>
-
-        <p>HACIENDOTE PARTE DE ESTA COMUNIDAD, ACCEDES A DESCUENTOS EN INDUMENTARIA DE TU CLUB, PROMOCIONES EXCLUSIVAS, PRE-VENTA, ENVIOS GRATIS, CUUOTAS SIN INTERES, SORTEOS MENSUALES Y MAS</p>
-
+        <img src="./Logo/318edec7-6ca8-4227-97bf-0b08c5ac17bc.png" alt="">
+        </div>
         <div class="asociate">
             <a href="./paginas/registro.html">
                 <button class="btnAsociate" type="button">Asociate</button>
@@ -165,9 +162,8 @@
                 </figure>
             </div>
             <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+                <h2>PARA SABER SOBRE NOSOTROS</h2>
+            <a class="click" href="./paginas/nosotros.html">Click aca</a>
             </div>
             <div class="box">
                 <h2>SIGUENOS</h2>

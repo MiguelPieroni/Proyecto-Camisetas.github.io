@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,78 +13,98 @@
 
 /* Banner de marcas inicio (Empieza) */
 
-.marcas img{
+.marcas img {
     width: 100%;
-    height: 100px;
+    height: 150px;
 }
+
 
 /* Banner de marcas inicio (Termina) */
 
 /* Destacados de inicio (Empieza) */
 
 
-#destacados h1{
-    width: 0px 50px;
-}
-#destacados img {
-    width: 200px;
-    align-items: center;
-    margin: 10px 80px 15px;
-}
-#destacados{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 180px;
 
-}
-#destacados h2{
-    color: white;
-    margin: 0 600px;
-    margin-bottom: 50px;
+.destacados__titulo h2{
+    display: flex;
     margin-top: 50px;
-    background-color: black;
-    border-radius: 10px
+    margin-bottom: 20px;
+    font-size: 60px;
+    padding: 10px;
+    color: red;
+    justify-content: center;
 }
-#destacados img{
+.destacados {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.destacados .destacados__imagenes {
     border: 1px solid grey;
     border-radius: 10px;
-    height: 200px;
+    color: black;
+    font-size: 20px;
 }
-
-#destacados a {
+.destacados .destacados__imagenes img {
+    width: 200px;
+    height: 210px;
+}
+.destacados .destacados__imagenes a {
     text-decoration: none;
     color: black;
 }
-#destacados p {
-    font-size: 25px;
+@media (max-width: 768px) {
+    .destacados__titulo h2{
+        font-size: 30px;
+    }
 }
+
 
 /* Destacados de inicio (Termina) */
 
 /* Donde nos encontramos y socios inicio (Empieza) */
 
 .ubicacion h2 {
-    text-align: center;
-    color: white;
-    background-color: black;
-    margin: 50px 750px 50px;
-    border-radius: 10px;
-}
-.ubicacion iframe {
     display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 60px;
+    padding: 10px;
 }
-.haciendoteSocio h2{
-    margin: 50px 800px 50px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: black;
-    color: white;
+.haciendotesocio h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 60px;
+    padding: 10px;
+    color: red;
 }
-.haciendoteSocio p {
-    margin: 20px 400px 50px 400px;
-    font-size: 25px;
-    border: solid 3px green;
+.haciendotesocio img{
+    margin: 0 0 0 500px;
 }
+
+@media (max-width: 768px) {
+    .haciendotesocio img {
+        width: 100%;
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .ubicacion h2{
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .haciendotesocio h2{
+        font-size: 40px;
+    }
+}
+
 .asociate {
     text-align: center;
     margin-bottom: 100px;
@@ -103,6 +123,11 @@
     width: 320px;   
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .asociate {
+        font-size: 35px;
+    }
+}
 .btnAsociate:hover{
     background-color: green;
     color: white;
@@ -113,76 +138,126 @@
  /* Nosotros (Empieza) */
 #nosotros h2{
     display: flex;
-    margin: 0 560px;
-    margin-bottom: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
     font-size: 100px;
-    border: 10px solid green;
+    color: red;
     background-color: black;
-    color: white;
 }
 #nosotros p{
-    max-height: 500px;
+    margin-top: 100px;
+    max-height: 600px;
     display: flex;
-    margin: 100px 250px;
-    border: 20px solid grey;
-    margin-bottom: 322px;
+    margin-right: 250px;
+    margin-left: 250px;
+    justify-content: center;
+    border: 10px solid grey;
     background-color: grey;
     border-radius: 15px;
-    font-size: 25px;
+    font-size: 35px;
     overflow: hidden;
     color: white;
     text-align: justify;
+    padding: 25px;
 }
 #nosotros{
-    background-image: url(../Banners/BANNER\ DESKTOP.png);
+    background-image: url(../Banners/Banner\ prueba.png);
     width: 100%;
-    height: 813px;
+    height: 1000px;
 }
-
+@media (max-width: 1550px) {
+    #nosotros {
+        height: 700px;
+    }
+    #nosotros h2 {
+        font-size: 50px;
+    }
+    #nosotros p {
+        padding: 20px;
+        font-size: 30px;
+        overflow: scroll;
+        margin-right: 40px;
+        margin-left: 40px;
+        max-height: 600px;
+    }
+}
+@media (max-width: 1000px) {
+    #nosotros {
+        height: 700px;
+    }
+    #nosotros h2 {
+        font-size: 50px;
+    }
+    #nosotros p {
+        padding: 20px;
+        font-size: 30px;
+        overflow: scroll;
+        margin-right: 40px;
+        margin-left: 40px;
+        max-height: 500px;
+    }
+}
 /* Nosotros (Termina) */
 
 /* Catalogo (Empieza) */
-#catalogo .comprar{
+
+
+.catalogo .comprar{
     height: 45px; 
-    padding-left: 5px;
-    padding-right: 5px;   
-    margin-bottom: 20px; 
-    margin-top: 10px;   
+    margin: 15px;
     text-transform: uppercase;
     background-color: #3ec249; 
     border-color: grey; 
     border-style: solid; 
     border-radius: 10px;  
-    width: 320px;   
+    width: 200px;   
     cursor: pointer;
+    font-size: 20px;
 }
 .comprar:hover{
     color: white;
 }
-#catalogo{
+.catalogo{
+    justify-content: center;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 25px;
 }
-#catalogo img{
-    width: 300px;
+.catalogo img{
+    width: 200px;
     border: 1px solid grey;
     padding: 0 auto;
     border-radius: 15px;
-    height: 300px;
+    height: 210px;
+    justify-content: space-between
 }
-#catalogo {
-    justify-content: space-between;
-}
-#catalogo a {
+.catalogo a {
     color: black;
     text-decoration: none;
+}
+.catalogo .precio {
+    color: blue;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+.catalogo .producto__nombre {
+    margin-top: 10px;
+    font-size: 24px;
+    color: gray;
 }
 /* Catalogo (Termina) */
 
 
 /* Login - Register (Empieza) */
-section{
+.socios{
     margin-bottom: 95px;
 }
 
@@ -208,7 +283,7 @@ input[type="password"]{
     border: none;
 }
 .input-login{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border: 1px solid #aaa;
 }
 .icon{
@@ -252,6 +327,11 @@ p{
 /* Login - Register (Termina) */
 
 /* Contacto (Empieza) */
+::placeholder {
+    color: grey;
+    font-size: 18px;
+}
+
 .content{
     margin-bottom: 150px;
 }
@@ -291,7 +371,7 @@ ul {
 }
 
 .contact-form {
-    background: #222222;
+    background: #0a141d;
     color: white;
 }
 
@@ -365,6 +445,10 @@ ul {
 }
 /* Contacto (Termina) */
 
+.ubicacion iframe{
+    width: 100%;
+}
+
 /* Pie de Pagina (Empieza) */
 .pie-pagina{
     width: 100%;
@@ -395,9 +479,16 @@ ul {
     font-size: 20px;
     text-align: center;
 }
-.pie-pagina .grupo-1 .box p{
-    color: #efefef;
+.pie-pagina .grupo-1 .box .click{
+    text-decoration: none;
+    display: flex;
+    color: blue;
     margin-bottom: 10px;
+    justify-content: center;
+    font-size: 30px;
+}
+.pie-pagina .grupo-1 .box .click:hover {
+    color: white;
 }
 .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
@@ -415,7 +506,7 @@ ul {
     text-align: center;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
-    color: green;
+    color: red;
 }
 .pie-pagina .grupo-2{
     background-color: #0a1a2a;
@@ -426,9 +517,9 @@ ul {
 .pie-pagina .grupo-2 small{
     font-size: 15px;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
     .pie-pagina .grupo-1{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;
