@@ -85,15 +85,12 @@
     color: red;
 }
 .haciendotesocio img{
-    margin: 0 0 0 500px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-@media (max-width: 768px) {
-    .haciendotesocio img {
-        width: 100%;
-        margin: 0;
-    }
-}
+
 @media (max-width: 768px) {
     .ubicacion h2{
         font-size: 40px;
@@ -253,6 +250,87 @@
     font-size: 24px;
     color: gray;
 }
+@media (max-width: 760px) {
+    .catalogo{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 5px;
+    }
+    .catalogo img{
+        width: 150px;
+        height: 150px;
+    }
+    .catalogo .precio {
+        color: blue;
+        font-size: 22px;
+        margin-bottom: 1px;
+    }
+    .catalogo .comprar{
+        height: 45px; 
+        margin: 15px;
+        text-transform: uppercase;
+        background-color: #3ec249; 
+        border-color: grey; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 170px;   
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .catalogo .producto__nombre {
+        margin-top: 10px;
+        font-size: 20px;
+        color: gray;
+}
+}
+@media (max-width: 1000px){
+    .catalogo{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        gap: 5px;
+    }
+    .catalogo img{
+        width: 150px;
+        height: 150px;
+    }
+    .catalogo .precio {
+        color: blue;
+        font-size: 22px;
+        margin-bottom: 1px;
+    }
+    .catalogo .comprar{
+        height: 45px; 
+        margin: 15px;
+        text-transform: uppercase;
+        background-color: #3ec249; 
+        border-color: grey; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 170px;   
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .catalogo .producto__nombre {
+        margin-top: 10px;
+        font-size: 20px;
+        color: gray;
+}
+}
+
 /* Catalogo (Termina) */
 
 
