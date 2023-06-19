@@ -133,7 +133,7 @@
  /* Donde nos encontramos y socios inicio (Termina) */
 
  /* Nosotros (Empieza) */
-#nosotros h2{
+.nosotros h2{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -141,7 +141,7 @@
     color: red;
     background-color: black;
 }
-#nosotros p{
+.nosotros p{
     margin-top: 100px;
     max-height: 600px;
     display: flex;
@@ -157,19 +157,19 @@
     text-align: justify;
     padding: 25px;
 }
-#nosotros{
+.nosotros{
     background-image: url(../banners/Banner-prueba.png);
     width: 100%;
     height: 1000px;
 }
 @media (max-width: 1550px) {
-    #nosotros {
+    .nosotros {
         height: 700px;
     }
-    #nosotros h2 {
+    .nosotros h2 {
         font-size: 50px;
     }
-    #nosotros p {
+    .nosotros p {
         padding: 20px;
         font-size: 30px;
         overflow: scroll;
@@ -179,13 +179,13 @@
     }
 }
 @media (max-width: 1000px) {
-    #nosotros {
+    .nosotros {
         height: 700px;
     }
-    #nosotros h2 {
+    .nosotros h2 {
         font-size: 50px;
     }
-    #nosotros p {
+    .nosotros p {
         padding: 20px;
         font-size: 30px;
         overflow: scroll;
