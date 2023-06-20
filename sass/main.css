@@ -104,6 +104,12 @@
   color: white;
 }
 
+.destacados__imagenes:hover {
+  border: 2px solid grey;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
 .catalogo {
   justify-content: center;
   display: flex;
@@ -139,7 +145,13 @@
   padding: 0 auto;
   border-radius: 15px;
   height: 210px;
+  transition: 1s;
   justify-content: space-between;
+}
+.catalogo img:hover {
+  border: 2px solid grey;
+  transform: scale(1, 1);
+  transition: 200ms;
 }
 .catalogo a {
   color: black;

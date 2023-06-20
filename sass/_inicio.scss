@@ -88,3 +88,9 @@
     background-color: green;
     color: white;
 }
+
+.destacados__imagenes:hover {
+    border: 2px solid grey;
+    transform: scale(1.1);
+    transition: 1s;
+}
