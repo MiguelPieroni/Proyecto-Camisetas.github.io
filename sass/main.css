@@ -203,8 +203,8 @@
   justify-content: center;
   margin-bottom: 50px;
   font-size: 100px;
-  color: rgb(252, 252, 252);
-  background-color: black;
+  color: rgb(8, 8, 8);
+  background-image: url(../banners/Banner-prueba.png);
 }
 
 ::-moz-placeholder {
